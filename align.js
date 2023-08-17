@@ -1,4 +1,4 @@
-
+const textArea = document.getElementById('user-text');
 
 const buttonLeft = document.getElementById('btn-left');
 const buttonCenter = document.getElementById('btn-center');
@@ -25,7 +25,7 @@ function toggleButton(button){
 }
 
 function toggleText(button) {
-    const textArea = document.getElementById('user-text');
+
     if (button === buttonLeft){
         textArea.classList.remove('text-center');
         textArea.classList.remove('text-right');
